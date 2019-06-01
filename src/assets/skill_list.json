@@ -1,0 +1,36 @@
+{
+    "skills": [{
+            "title": "Developer",
+            "icon": "code",
+            "alt_icon": "file-code",
+            "proficient_skills": [
+                "Python", "HTML/CSS", "C/C++", "Django", "SQL", "JavaScript"
+            ],
+            "intermediate_skills": [
+                "Bash", "Node.js", "Express.js", "React.js"
+            ],
+            "statement": "I value clean and efficient code through thoughtful development and vetting."
+        },
+        {
+            "title": "DevOps",
+            "icon": "server",
+            "alt_icon": "memory",
+            "proficient_skills": [
+                "Jenkins", "Docker", "VMWare", "Linux", "Windows", "Networking(TCP/IP)"
+            ],
+            "intermediate_skills": [
+                "AWS", "GCP"
+            ],
+            "statement": "I enjoy orchestrating deployments, automating processes, and increasing effeciency."
+        },
+        {
+            "title": "IT Professional",
+            "icon": "server",
+            "alt_icon": "sitemap",
+            "proficient_skills": [
+                "Change Control", "Patch Management", "NERC/FERC", "Server Maintenance", "Endpoint Security", "Threat Detection", "Password Storage"
+            ],
+            "statement": "I am able to understand technology and explain it in easy to understand terms."
+        }
+    ]
+}

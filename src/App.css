@@ -1,0 +1,29 @@
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.skill-logo {
+  font-size: 75px;
+  padding-bottom: 5px;
+}
+
+.skills li span{
+  padding-bottom: 2px;
+  position: relative;
+  left: -10px;
+}
+.outer-card {
+  -webkit-box-shadow: unset;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.card {
+  text-align: center;
+}
+
+.full100 {
+  display: inline-block !important;
+}
+.carousel-indicators li {
+  background-color: #4285f4;
+}

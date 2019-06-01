@@ -1,0 +1,37 @@
+{
+    "projects": [{
+            "title": "Docent",
+            "img": "docent",
+            "description": "An Activity Application to find things to do in Reno",
+            "technologies": "Python/Django, SQL, Ubuntu, NGINX, and HTML/CSS/JS Bootstrap, Ajax, JQuery, Virtualenv",
+            "url": "https://github.com/qoutland/docent"
+        }, {
+            "title": "Discin",
+            "img": "discin",
+            "description": "An inventory and sharing application for Disc Golf discs.",
+            "technologies": "Node.js, Express, React, MongoDB, Bootstrap",
+            "url": "https://github.com/qoutland/discin"
+        },
+        {
+            "title": "PyWar",
+            "img": "pywar",
+            "description": "War (card game simulator) written in Python.",
+            "technologies": "Python, multithreading",
+            "url": "https://github.com/qoutland/PyWar"
+        },
+        {
+            "title": "Personal Website",
+            "img": "personal",
+            "description": "The website you are viewing right now",
+            "technologies": "React, Bootstrap",
+            "url": "https://github.com/qoutland/personal_website_react"
+        },
+        {
+            "title": "Low Power IoT Client/Server",
+            "img": "iot",
+            "description": "An IoT Client-Server Application written in Python meant for low power field devices.",
+            "technologies": "Python, TCP/IP, Dropbox",
+            "url": "https://docent.life"
+        }
+    ]
+}
