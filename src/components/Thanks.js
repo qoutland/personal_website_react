@@ -14,9 +14,11 @@ componentWillMount() {
 
 toggle = nr => () => {
   let modalNumber = 'modal' + nr
+  window.location.pathname='/';
   this.setState({
     [modalNumber]: !this.state[modalNumber]
   });
+  
 }
 
 render() {

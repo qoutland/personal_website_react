@@ -28,7 +28,7 @@ export default class Contact extends Component {
                   <MDBInput label="Your email" icon="envelope" group type="email" validate error="wrong" success="right" name="_replyto" />
                   <MDBInput label="Subject" icon="tag" group type="text" validate error="wrong" success="right" name="_subject"/>
                   <MDBInput type="textarea" rows="4" label="Your message" icon="pencil-alt" name="message" />
-                  <input type="hidden" name="_next" value="https://quinoutland.com"/>
+                  <input type="hidden" name="_next" value="https://quinoutland.com/thanks"/>
                 </div>
               </MDBModalBody>
               <MDBModalFooter>
