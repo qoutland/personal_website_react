@@ -59,21 +59,21 @@
   background-color: #4285f4;
 }
 .docent {
-  content: url('./assets/docent.png');
+  content: url('./components/Projects/docent.png');
   height: 100;
   width: 200;
 }
 .discin {
-  content: url('./assets/disc.jpg');
+  content: url('./components/Projects/disc.jpg');
 }
 .pywar {
-  content: url('./assets/war.png');
+  content: url('./components/Projects/war.png');
 }
 .personal {
-  content: url('./assets/docent.png');
+  content: url('./components/Projects/disc.jpg');
 }
 .iot {
-  content: url('./assets/iot.jpg');
+  content: url('./components/Projects/iot.jpg');
 }
 .social {
   width: 50px;
