@@ -8,7 +8,7 @@ export default class NavBar extends Component {
         return (
             <MDBNavbar color="blue-gradient" dark expand="md">
                 <MDBNavbarBrand>
-                    <img className="logo navButton" src={logo} alt="logo" rel="noopener noreferrer"/>
+                    <a href="/"><img className="logo navButton" src={logo} alt="logo"/></a>
                 </MDBNavbarBrand>
                 <MDBNavbarNav right>
                     <MDBNavItem>

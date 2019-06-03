@@ -27,7 +27,7 @@ export default class Qualifications extends Component {
               <p className="grey-text mb-md-0 mb-5">
               Student Intern EMS/ESCC and Enterprise Applcation Technology
               </p>
-              <MDBBtn color="primary" href="https://nvenergy.com" target="_blank">View Website</MDBBtn>
+              <MDBBtn color="primary" href="https://www.nvenergy.com" target="_blank">View Website</MDBBtn>
             </MDBCol>
             <MDBCol md="4" className="border">
             <img src={git} width="50%" height="50%" alt="git_logo"/>

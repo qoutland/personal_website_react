@@ -17,7 +17,7 @@ class Project extends Component {
                     <MDBCardText muted small>
                     Technologies used: <strong>{this.props.project.technologies}</strong>
                     </MDBCardText>
-                    <a href={this.props.project.url}><MDBBtn color="primary">View Project</MDBBtn></a>
+                    <a href={this.props.project.url} target="_blank" rel="noopener noreferrer"><MDBBtn color="primary">View Project</MDBBtn></a>
                 </MDBCardBody>
                 </MDBCard>
             </MDBCol>            
