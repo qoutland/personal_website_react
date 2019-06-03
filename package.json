@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "mdbreact": "^4.15.0",
+    "now": "^15.3.0",
     "react": "^16.8.6",
     "react-card-flip": "^0.7.1",
     "react-dom": "^16.8.6",
