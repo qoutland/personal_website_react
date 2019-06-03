@@ -3,8 +3,43 @@ import {  MDBRow, MDBCol, MDBBtn, MDBAnimation} from "mdbreact";
 import unr from './nevada.jpg';
 import nve from './nvenergy.png';
 import git from './github.jpg';
+import axios from 'axios';
 
 export default class Qualifications extends Component {
+  constructor(props) {
+    super(props);
+    this.state={
+      repoNum: 0,
+      commitNum: 0
+    }
+  }
+
+  componentWillMount() {
+    var yrtotal=0;
+    axios.get('https://api.github.com/users/qoutland')
+    .then((res) => {
+      this.setState({repoNum: res.data.public_repos})
+    })
+    axios.get('https://github-contributions-api.now.sh/v1/qoutland')
+    .then((res) => res.data.years.map(function(year) {
+      yrtotal += year.total
+      return true
+    }))
+    .then((something) => {this.setState({commitNum: yrtotal})} )
+    
+  }
+
+  showRepoInfo = () => {
+    
+    if (this.state.repoNum !== 0){
+      return (
+      <p className="grey-text mb-md-0 mb-5">
+      Repositories: <strong>{this.state.repoNum}</strong> | Contributions: <strong>{this.state.commitNum}</strong>
+      </p>
+      )
+    }
+  }
+
   render() {
     return (
         <section className="text-center my-5">
@@ -32,9 +67,11 @@ export default class Qualifications extends Component {
             <MDBCol md="4" className="border">
             <img src={git} width="50%" height="50%" alt="git_logo"/>
               <h5 className="font-weight-bold my-4">Projects</h5>
-              <p className="grey-text mb-md-0 mb-5">
+              <p className="mb-md-0 mb-5">
                 My side projects and open source contributions can be viewed here.
               </p>
+              {this.showRepoInfo()}
+
               <MDBBtn color="primary" href="https://github.com/qoutland" target="_blank">View Website</MDBBtn>
             </MDBCol>
           </MDBRow>

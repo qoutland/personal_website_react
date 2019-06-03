@@ -2,8 +2,38 @@ import React, { Component } from 'react';
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardImage,
     MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn, MDBAnimation } from "mdbreact";
 import project_list from './project_list';
+import axios from 'axios';
+import Moment from 'react-moment';
 
 class Project extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            lastCommit: '',
+            commitNum: ''
+        }
+    }
+
+    componentWillMount() {
+        axios.get('https://api.github.com/repos/qoutland/'+this.props.project.name)
+        .then((res) =>{
+            this.setState({lastCommit: res.data.updated_at})
+        });
+        axios.get('https://api.github.com/repos/qoutland/'+this.props.project.name + '/contributors')
+        .then((res) =>{
+            this.setState({commitNum: res.data[0].contributions})
+        })
+    }
+    showRepoInfo = () => {
+        if (this.state.lastCommit !== '') {
+            return (
+                <MDBCardText  small>
+                    Last Commit: <strong><Moment format="MM/DD/YYYY">{this.state.lastCommit}</Moment></strong> | Commits: <strong>{this.state.commitNum}</strong>
+                </MDBCardText>
+            )
+        }
+    }
+
     render() {
         return (
             <MDBCol md="4" className="clearfix d-none d-md-block full100">
@@ -17,6 +47,7 @@ class Project extends Component {
                     <MDBCardText muted small>
                     Technologies used: <strong>{this.props.project.technologies}</strong>
                     </MDBCardText>
+                    {this.showRepoInfo()}
                     <a href={this.props.project.url} target="_blank" rel="noopener noreferrer"><MDBBtn color="primary">View Project</MDBBtn></a>
                 </MDBCardBody>
                 </MDBCard>
