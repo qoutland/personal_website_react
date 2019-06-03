@@ -1,6 +1,7 @@
 {
     "version": 2,
     "name": "personal_website_react",
+    "alias": ["quinoutland.com"],
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
     ],
