@@ -6,7 +6,17 @@
   font-size: 75px;
   padding-bottom: 5px;
 }
-
+.navButton:hover {
+  position: relative;
+  top: -2px;
+}
+.statement {
+  text-align: center;
+  width: 300px;
+}
+.skill {
+  height: 450px;
+}
 .skills li span{
   padding-bottom: 2px;
   position: relative;
@@ -20,10 +30,82 @@
 .card {
   text-align: center;
 }
-
+.project {
+  height: 485px;
+  overflow: hidden;
+  width: 100%;
+}
 .full100 {
   display: inline-block !important;
 }
+.controls-top {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.controls-top a {
+  margin: 2px;
+  border-radius: 56%;
+  padding: 10px;
+  background-color: #4285f4;
+}
+.controls-top a:hover {
+  background-color: #0c45a0;
+}
+.carousel-indicators {
+  margin-bottom: 0;
+}
 .carousel-indicators li {
   background-color: #4285f4;
+}
+.docent {
+  content: url('./assets/docent.png');
+  height: 100;
+  width: 200;
+}
+.discin {
+  content: url('./assets/disc.jpg');
+}
+.pywar {
+  content: url('./assets/war.png');
+}
+.personal {
+  content: url('./assets/docent.png');
+}
+.iot {
+  content: url('./assets/iot.jpg');
+}
+.social {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border-radius: 50%;
+  text-align: center;
+  display: table-cell;
+  overflow: hidden;
+}
+.social i {
+  padding-top: 17px;
+  text-align: center;
+
+}
+.socials {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  position: fixed !important;
+  bottom: 10px;
+  right: 10px;
+  display: table-cell;
+  padding: 0;
+
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.contact i {
+  text-align: center;
+  font-size: 30px;
 }

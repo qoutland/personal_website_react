@@ -26,7 +26,7 @@ class Skill extends Component {
     return (
       <MDBCard className="outer-card">
       <ReactCardFlip className="flipper" isFlipped={this.state.flipped} flipDirection="vertical">
-      <MDBCard key="front">
+      <MDBCard className="skill" key="front">
       <MDBCardBody className="text-center">
         <MDBIcon className="skill-logo light-blue-text" icon={this.props.skill_data.icon} />
         <MDBCardTitle tag="h5">{this.props.skill_data.title}</MDBCardTitle>
@@ -41,7 +41,7 @@ class Skill extends Component {
         </a>
       </MDBCardFooter>
     </MDBCard>
-    <MDBCard key="back">
+    <MDBCard className="skill" key="back">
       <MDBCardBody className="text-center">
         <MDBIcon className="skill-logo light-blue-text" icon={this.props.skill_data.alt_icon} />
         <MDBCardTitle tag="h5">{this.state.title}</MDBCardTitle>
@@ -64,6 +64,7 @@ export default class Skills extends Component {
     render() {
         return (
           <MDBContainer>
+            <h1 style={{textAlign: 'center'}}>Skills</h1>
             <MDBCardGroup deck>
               <Skill skill_data={skill_list.skills[0]}/>
               <Skill skill_data={skill_list.skills[1]} />
