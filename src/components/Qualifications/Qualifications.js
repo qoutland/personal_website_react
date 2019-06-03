@@ -18,7 +18,7 @@ export default class Qualifications extends Component {
               <h5 className="font-weight-bold my-4">University of Nevada, Reno</h5>
               <p className="grey-text mb-md-0 mb-5">Major: Computer Science Engineering</p>
               <p className="grey-text mb-md-0 mb-5">Minors: Mathematics & Cyber Security</p>
-              <MDBBtn color="primary" href="https://unr.edu" target="_blank">View Website</MDBBtn>
+              <MDBBtn color="primary" href="https://www.unr.edu/" target="_blank">View Website</MDBBtn>
             </MDBCol>
             <MDBCol md="4">
             <img src={nve} alt="nvenergy_logo"/>
