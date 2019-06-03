@@ -4,10 +4,7 @@
             "icon": "code",
             "alt_icon": "file-code",
             "proficient_skills": [
-                "Python", "HTML/CSS", "C/C++", "Django", "SQL", "JavaScript"
-            ],
-            "intermediate_skills": [
-                "Bash", "Node.js", "Express.js", "React.js"
+                "Python", "HTML/CSS", "C/C++", "Django", "SQL", "JavaScript", "Bash", "Node.js", "Express.js", "React.js"
             ],
             "statement": "I value clean and efficient code through thoughtful development and vetting. I have built several projects, contributed to open source projects, and developed enterprise applications."
         },
@@ -16,10 +13,7 @@
             "icon": "server",
             "alt_icon": "memory",
             "proficient_skills": [
-                "Jenkins", "Docker", "VMWare", "Linux", "Windows", "Networking(TCP/IP)"
-            ],
-            "intermediate_skills": [
-                "AWS", "GCP"
+                "Jenkins", "Docker", "VMWare", "Linux", "Windows", "Networking(TCP/IP)", "AWS", "GCP"
             ],
             "statement": "I enjoy orchestrating deployments, automating processes, and increasing effeciency. I have experience in managing deployments and maintaining uptime for 'always-on' applications."
         },
