@@ -9,7 +9,7 @@
             "intermediate_skills": [
                 "Bash", "Node.js", "Express.js", "React.js"
             ],
-            "statement": "I value clean and efficient code through thoughtful development and vetting."
+            "statement": "I value clean and efficient code through thoughtful development and vetting. I have built several projects, contributed to open source projects, and developed enterprise applications."
         },
         {
             "title": "DevOps",
@@ -21,16 +21,16 @@
             "intermediate_skills": [
                 "AWS", "GCP"
             ],
-            "statement": "I enjoy orchestrating deployments, automating processes, and increasing effeciency."
+            "statement": "I enjoy orchestrating deployments, automating processes, and increasing effeciency. I have experience in managing deployments and maintaining uptime for 'always-on' applications."
         },
         {
             "title": "IT Professional",
-            "icon": "server",
+            "icon": "laptop-medical",
             "alt_icon": "sitemap",
             "proficient_skills": [
                 "Change Control", "Patch Management", "NERC/FERC", "Server Maintenance", "Endpoint Security", "Threat Detection", "Password Storage"
             ],
-            "statement": "I am able to understand technology and explain it in easy to understand terms."
+            "statement": "I am able to understand technology and explain it in easy to understand terms. I have managed servers and workstations at an enterprise scale, configured rolling updates, and maintained compliant by government standards. "
         }
     ]
 }

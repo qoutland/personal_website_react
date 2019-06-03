@@ -32,6 +32,7 @@
 }
 .project {
   height: 485px;
+  width: 600px;
   overflow: hidden;
   width: 100%;
 }
@@ -44,9 +45,9 @@
   margin-bottom: 15px;
 }
 .controls-top a {
-  margin: 2px;
-  border-radius: 56%;
-  padding: 10px;
+  padding: 10px 14px 10px 14px;
+  margin: 4px;
+  border-radius: 50%;
   background-color: #4285f4;
 }
 .controls-top a:hover {
@@ -70,7 +71,7 @@
   content: url('./components/Projects/war.png');
 }
 .personal {
-  content: url('./components/Projects/disc.jpg');
+  content: url('./components/Projects/avatar.jpg');
 }
 .iot {
   content: url('./components/Projects/iot.jpg');
@@ -84,10 +85,16 @@
   display: table-cell;
   overflow: hidden;
 }
+.lin {
+  color: white;
+  background-color: #0082ca;
+}
+.mail {
+  background-color: #d44638;
+}
 .social i {
   padding-top: 17px;
   text-align: center;
-
 }
 .socials {
   display: flex;

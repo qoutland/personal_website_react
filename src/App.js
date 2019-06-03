@@ -12,7 +12,6 @@ import Thanks from './components/Thanks'
 import Qualifications from './components/Qualifications/Qualifications';
 
 function App() {
-  console.log(window.location.pathname)
   return (
     <div className="App">
       <NavBar />

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardImage,
-    MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from "mdbreact";
+    MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn, MDBAnimation } from "mdbreact";
 import project_list from './project_list';
 
 class Project extends Component {
@@ -44,10 +44,7 @@ export default class Projects extends Component {
     };
 
     createItem = (projects) => {
-        console.log(projects)
         return projects.map(function(project, i) {
-            console.log(project)
-            console.log(i)
             return (
             <MDBCarouselItem itemId={i+1} key={i}>
                 <Project project={project} key={i} />
@@ -65,19 +62,20 @@ export default class Projects extends Component {
         } else {
             return(
                 <MDBRow className="d-flex align-items-stretch">
-                    <MDBCarouselItem itemId="1">
-                        {this.createItems(project_list.projects.slice(0,3))}
-                    </MDBCarouselItem>
-                    <MDBCarouselItem itemId="2">
-                        {this.createItems(project_list.projects.slice(3,6))}
-                    </MDBCarouselItem>
+                    <MDBAnimation type="bounceInRight">
+                        <MDBCarouselItem itemId="1">
+                            {this.createItems(project_list.projects.slice(0,3))}
+                        </MDBCarouselItem>
+                        <MDBCarouselItem itemId="2">
+                            {this.createItems(project_list.projects.slice(3,6))}
+                        </MDBCarouselItem>
+                    </MDBAnimation>
                 </MDBRow>
             )
         }
     };
 
     render() {
-        console.log(this.state.listLen)
         return (
             <MDBContainer >
                 <h1 style={{textAlign: 'center'}}>Projects</h1>
