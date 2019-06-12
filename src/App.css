@@ -2,80 +2,100 @@
   width: 50px;
   height: 50px;
 }
+
 .skill-logo {
   font-size: 75px;
   padding-bottom: 5px;
 }
+
 .navButton:hover {
   position: relative;
   top: -2px;
 }
+
 .statement {
   text-align: center;
   width: 300px;
 }
+
 .skill {
   height: 500px;
 }
-.skills li span{
+
+.skills li span {
   padding-bottom: 2px;
   position: relative;
   left: -10px;
 }
+
 .outer-card {
   -webkit-box-shadow: unset;
-	-moz-box-shadow: none;
-	box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
+
 .card {
   text-align: center;
 }
+
 .project {
   height: 525px;
   width: 600px;
   overflow: hidden;
   width: 100%;
 }
+
 .full100 {
   display: inline-block !important;
 }
+
 .controls-top {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 15px;
 }
+
 .controls-top a {
   padding: 10px 14px 10px 14px;
   margin: 4px;
   border-radius: 50%;
   background-color: #4285f4;
 }
+
 .controls-top a:hover {
   background-color: #0c45a0;
 }
+
 .carousel-indicators {
   margin-bottom: 0;
 }
+
 .carousel-indicators li {
   background-color: #4285f4;
 }
+
 .docent {
   content: url('./components/Projects/docent.png');
   height: 100;
   width: 200;
 }
+
 .discin {
   content: url('./components/Projects/disc.jpg');
 }
+
 .pywar {
   content: url('./components/Projects/war.png');
 }
+
 .personal {
   content: url('./components/Projects/avatar.jpg');
 }
+
 .iot {
   content: url('./components/Projects/iot.jpg');
 }
+
 .social {
   width: 50px;
   height: 50px;
@@ -85,21 +105,26 @@
   display: table-cell;
   overflow: hidden;
 }
+
 .lin {
   color: white;
   background-color: #0082ca;
 }
+
 .mail {
   background-color: #d44638;
 }
+
 .social i {
   padding-top: 17px;
   text-align: center;
 }
+
 .socials {
   display: flex;
   justify-content: center;
 }
+
 .contact {
   position: fixed !important;
   bottom: 10px;
@@ -112,7 +137,34 @@
   border-radius: 50%;
   overflow: hidden;
 }
+
 .contact i {
   text-align: center;
   font-size: 30px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.avatar {
+  animation-name: spin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  -webkit-animation-name: spin;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 5s;
+}
+
+.foot {
+  bottom: 0px;
+  width: 100%;
 }

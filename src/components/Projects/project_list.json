@@ -1,47 +1,47 @@
 {
-    "projects": [{
-            "title": "Docent",
-            "name": "docent",
-            "img": "img-fluid docent",
-            "img_alt": "docent_pic",
-            "description": "An Activity Application to find things to do in Reno",
-            "technologies": "Python/Django, SQL, Ubuntu, NGINX, and HTML/CSS/JS Bootstrap, Ajax, JQuery, Virtualenv",
-            "url": "https://github.com/qoutland/docent"
-        }, {
-            "title": "Discin",
-            "name": "discin",
-            "img": "img-fluid discin",
-            "img_alt": "discin_pic",
-            "description": "An inventory and sharing application for Disc Golf discs.",
-            "technologies": "Node.js, Express, React, MongoDB, Bootstrap",
-            "url": "https://github.com/qoutland/discin"
-        },
-        {
-            "title": "PyWar",
-            "name": "pywar",
-            "img": "img-fluid pywar",
-            "img_alt": "pywar_pic",
-            "description": "War (card game simulator) written in Python.",
-            "technologies": "Python, multithreading",
-            "url": "https://github.com/qoutland/PyWar"
-        },
-        {
-            "title": "Personal Website",
-            "name": "personal_website_react",
-            "img": "img-fluid personal",
-            "img_alt": "personal_pic",
-            "description": "The website you are viewing right now",
-            "technologies": "React, Bootstrap",
-            "url": "https://github.com/qoutland/personal_website_react"
-        },
-        {
-            "title": "Low Power IoT Client/Server",
-            "name": "iot_client_server",
-            "img": "img-fluid iot",
-            "img_alt": "iot_pic",
-            "description": "An IoT Client-Server Application written in Python meant for low power field devices.",
-            "technologies": "Python, TCP/IP, Dropbox",
-            "url": "https://github.com/qoutland/iot_client_server"
-        }
-    ]
+  "projects": [{
+      "title": "Docent",
+      "name": "docent",
+      "img": "img-fluid docent",
+      "img_alt": "docent_pic",
+      "description": "An Activity Application to find things to do in Reno",
+      "technologies": "Python/Django, SQL, Ubuntu, NGINX, and HTML/CSS/JS Bootstrap, Ajax, JQuery, Virtualenv",
+      "url": "https://github.com/qoutland/docent"
+    }, {
+      "title": "Discin",
+      "name": "discin",
+      "img": "img-fluid discin",
+      "img_alt": "discin_pic",
+      "description": "An inventory and sharing application for Disc Golf discs.",
+      "technologies": "Node.js, Express, React, MongoDB, Bootstrap",
+      "url": "https://github.com/qoutland/discin"
+    },
+    {
+      "title": "PyWar",
+      "name": "pywar",
+      "img": "img-fluid pywar",
+      "img_alt": "pywar_pic",
+      "description": "War (card game simulator) written in Python.",
+      "technologies": "Python, multithreading",
+      "url": "https://github.com/qoutland/PyWar"
+    },
+    {
+      "title": "Personal Website",
+      "name": "personal_website_react",
+      "img": "img-fluid personal",
+      "img_alt": "personal_pic",
+      "description": "The website you are viewing right now",
+      "technologies": "React, Bootstrap",
+      "url": "https://github.com/qoutland/personal_website_react"
+    },
+    {
+      "title": "Low Power IoT Client/Server",
+      "name": "iot_client_server",
+      "img": "img-fluid iot",
+      "img_alt": "iot_pic",
+      "description": "An IoT Client-Server Application written in Python meant for low power field devices.",
+      "technologies": "Python, TCP/IP, Dropbox",
+      "url": "https://github.com/qoutland/iot_client_server"
+    }
+  ]
 }
