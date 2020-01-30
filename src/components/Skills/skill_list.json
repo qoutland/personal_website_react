@@ -4,27 +4,27 @@
       "icon": "code",
       "alt_icon": "file-code",
       "proficient_skills": [
-        "Python", "HTML/CSS", "C/C++", "Django", "SQL", "JavaScript", "Bash", "Node.js", "Express.js", "React.js"
+        "Python", "HTML/CSS", "C/C++", "Django", "SQL", "JavaScript", "React.js"
       ],
-      "statement": "I value clean and efficient code through thoughtful development and vetting. I have built several projects, contributed to open source projects, and developed enterprise applications."
+      "statement": "I value clean and efficient code through thoughtful development and vetting. I have lead development for several projects, contributed to open source libraries, and developed enterprise applications."
     },
     {
       "title": "DevOps",
       "icon": "server",
       "alt_icon": "memory",
       "proficient_skills": [
-        "Jenkins", "Docker", "VMWare", "Linux", "Windows", "Networking(TCP/IP)", "AWS", "GCP"
+      "Docker", "Kubernetes", "Argo", "Jenkins", "CircleCI", "VMWare", "AWS", "GCP", "HAProxy"
       ],
-      "statement": "I enjoy orchestrating deployments, automating processes, and increasing effeciency. I have experience in managing deployments and maintaining uptime for 'always-on' applications."
+      "statement": "I enjoy orchestrating deployments, automating processes, and increasing effeciency. I have experience in cloud migrations and feel comfortable managing 'always on' applications."
     },
     {
       "title": "IT Professional",
       "icon": "laptop-medical",
       "alt_icon": "sitemap",
       "proficient_skills": [
-        "Change Control", "Patch Management", "NERC/FERC", "Server Maintenance", "Endpoint Security", "Threat Detection", "Password Storage"
+        "Change Control", "Patch Management", "NERC/FERC", "Server Maintenance", "Endpoint Security", "Threat Detection", "Password Storage", "Linux", "Windows"
       ],
-      "statement": "I am able to understand technology and explain it in easy to understand terms. I have managed servers and workstations at an enterprise scale, configured rolling updates, and maintained compliant by government standards. "
+      "statement": "I am able to understand technology and explain it in easy to understand terms. I have managed servers and workstations in an enterprise environment, configured rolling updates, and maintained compliance to government standards."
     }
   ]
 }

@@ -9,7 +9,8 @@ import Projects from './components/Projects/Projects';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Thanks from './components/Thanks';
-import Qualifications from './components/Qualifications/Qualifications';
+import Education from './components/Education/Education';
+import Experience from './components/Experience/Experience';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <br />
       <Projects />
       <br />
-      <Qualifications />
+      <Education />
+      <Experience />
       <br />
       <Contact />
       <Thanks />

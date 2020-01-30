@@ -18,9 +18,6 @@ import project_list from './project_list';
 import axios from 'axios';
 import Moment from 'react-moment';
 import gitcache from './gitcache';
-import writeFileSync from 'fs';
-
-const editJsonFile = require('edit-json-file');
 
 class Project extends Component {
   constructor(props) {

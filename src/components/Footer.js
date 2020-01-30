@@ -64,7 +64,7 @@ export default class Footer extends Component {
           <div className="footer-copyright text-center py-2">
             <MDBContainer>
               &copy; {new Date().getFullYear()} Copyright:{' '}
-              <a href="https://quinoutland.com"> QuinOutland.com </a>
+              <a href="https://quinoutland.com"> quinoutland.com </a>
             </MDBContainer>
           </div>
         </MDBFooter>

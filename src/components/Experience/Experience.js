@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { MDBRow, MDBCol, MDBBtn, MDBAnimation } from 'mdbreact';
 import unr from './nevada.jpg';
 import nve from './nvenergy.png';
-import git from './github.png';
+import taos from './taos.png';
 import axios from 'axios';
 import gitcache from './gitcache';
 
@@ -54,38 +54,11 @@ export default class Qualifications extends Component {
     return (
       <section className="text-center my-5">
         <MDBAnimation type="bounceInDown">
-          <h2>
-            <strong>Qualifications</strong>
-          </h2>
-          <p className="lead grey-text w-responsive mx-auto mb-5">
-            I have graduated from an acredited 4 year university, worked as an
-            intern for nearly 3 years and have completed various side projects.
-          </p>
+          <h1>
+            <strong>Experience</strong>
+          </h1>
           <MDBRow>
-            <MDBCol md="4" className="border">
-              <img src={unr} alt="nevada_logo" />
-              <h5 className="font-weight-bold my-4">
-                University of Nevada, Reno
-              </h5>
-              <p className="grey-text mb-md-0 mb-5">
-                Major: Computer Science Engineering
-              </p>
-              <p className="grey-text mb-md-0 mb-5">
-                Minors: Mathematics & Cyber Security
-              </p>
-              <p className="grey-text mb-md-0 mb-5">
-                <strong>Aug 2015 - May 2019</strong>
-              </p>
-              <MDBBtn
-                className="qualBtn"
-                color="primary"
-                href="https://www.unr.edu/"
-                target="_blank"
-              >
-                View Website
-              </MDBBtn>
-            </MDBCol>
-            <MDBCol md="4" className="border">
+            <MDBCol md="6" className="border">
               <img src={nve} alt="nvenergy_logo" />
               <h5 className="font-weight-bold my-4">NVEnergy</h5>
               <p className="grey-text mb-md-0 mb-5">
@@ -103,19 +76,20 @@ export default class Qualifications extends Component {
                 View Website
               </MDBBtn>
             </MDBCol>
-            <MDBCol md="4" className="border">
-              <img src={git} alt="git_logo" />
-              <h5 className="font-weight-bold my-4">Projects</h5>
-              <p className="mb-md-0 mb-5">
-                My side projects and open source contributions can be viewed
-                here.
+            <MDBCol md="6" className="border">
+              <img src={taos} alt="taos_logo" />
+              <h5 className="font-weight-bold my-4">Taos Mountain LLC</h5>
+              <p className="grey-text mb-md-0 mb-5">
+               Software and DevOps Engineer
               </p>
-              {this.showRepoInfo()}
+              <p className="grey-text mb-md-0 mb-5">
+                <strong>Aug 2019 - Present</strong>
+              </p>
 
               <MDBBtn
                 className="qualBtn"
                 color="primary"
-                href="https://github.com/qoutland"
+                href="https://taos.com"
                 target="_blank"
               >
                 View Website

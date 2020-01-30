@@ -23,11 +23,10 @@ export default class Jumbotron extends Component {
           <MDBCardBody>
             <MDBCardTitle>Hi, I'm Quin. Nice to meet you.</MDBCardTitle>
             <MDBCardText className="text-center statement mx-auto">
-              I am a recent college graduate looking to jumpstart my
-              professional career. I am highly motivated and I pick up new
-              things easily. I am looking to begin my career in a small to
-              medium size company and would be comfortable wearing multiple
-              hats.
+              I am an experienced Software Developer and DevOps Engineer. I am
+              highly motivated and I pick up new things easily. I am looking to
+              continue my career in a small to medium size company and feel
+              comfortable wearing multiple hats.
             </MDBCardText>
           </MDBCardBody>
         </MDBAnimation>
