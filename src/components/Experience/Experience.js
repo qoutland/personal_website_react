@@ -62,7 +62,7 @@ export default class Qualifications extends Component {
               <img src={nve} alt="nvenergy_logo" />
               <h5 className="font-weight-bold my-4">NVEnergy</h5>
               <p className="grey-text mb-md-0 mb-5">
-                Student Intern EMS/ESCC and Enterprise Applcation Technology
+                Site Reliability Engineer ESCC and Enterprise Applcation Technology
               </p>
               <p className="grey-text mb-md-0 mb-5">
                 <strong>Oct 2016 - Jun 2019</strong>
