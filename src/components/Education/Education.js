@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { MDBRow, MDBCol, MDBBtn, MDBAnimation } from 'mdbreact';
 import unr from './nevada.jpg';
-import docker from './docker.png'
+import docker from './docker.png';
+import docker_cert from './docker_cert.pdf';
+import ckad from './ckad.png';
+import ckad_cert from './ckad_cert.pdf'
 import axios from 'axios';
 import gitcache from './gitcache';
 
@@ -57,7 +60,7 @@ export default class Eductaion extends Component {
             <strong>Education</strong>
           </h1>
           <MDBRow>
-            <MDBCol md="6" className="border">
+            <MDBCol md="4" className="border">
               <img src={unr} alt="nevada_logo" />
               <h5 className="font-weight-bold my-4">
                 University of Nevada, Reno
@@ -80,7 +83,7 @@ export default class Eductaion extends Component {
                 View Website
               </MDBBtn>
             </MDBCol>
-            <MDBCol md="6" className="border">
+            <MDBCol md="4" className="border">
               <img src={docker} alt="docker_logo" />
               <h5 className="font-weight-bold my-4">
                 Docker Certified Associate
@@ -91,12 +94,45 @@ export default class Eductaion extends Component {
               <MDBBtn
                 className="qualBtn"
                 color="primary"
-                href="https://credentials.docker.com/74a85dbe-206f-4821-bed2-e92aad94c27f"
+                href={docker_cert}
                 target="_blank"
               >
                 View Certificate
               </MDBBtn>
-            </MDBCol>            
+              <MDBBtn
+                className="qualBtn"
+                color="primary"
+                href="https://credentials.docker.com/74a85dbe-206f-4821-bed2-e92aad94c27f"
+                target="_blank"
+              >
+                Validate Certificate
+              </MDBBtn>
+            </MDBCol>
+            <MDBCol md="4" className="border">
+              <img src={ckad} alt="docker_logo" />
+              <h5 className="font-weight-bold my-4">
+                Certified Kubernetes Application Developer
+              </h5>
+              <p className="grey-text mb-md-0 mb-5">
+                <strong>Feb 2020</strong>
+              </p>
+              <MDBBtn
+                className="qualBtn"
+                color="primary"
+                href={ckad_cert}
+                target="_blank"
+              >
+                View Certificate
+              </MDBBtn>
+              <MDBBtn
+                className="qualBtn"
+                color="primary"
+                href="https://www.youracclaim.com/badges/774db1da-3548-4193-8ec7-742d38fe1a0b/linked_in_profile"
+                target="_blank"
+              >
+                Validate Certificate
+              </MDBBtn>
+            </MDBCol>                   
           </MDBRow>
         </MDBAnimation>
       </section>

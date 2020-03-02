@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { MDBRow, MDBCol, MDBBtn, MDBAnimation } from 'mdbreact';
-import unr from './nevada.jpg';
 import nve from './nvenergy.png';
 import taos from './taos.png';
 import axios from 'axios';
