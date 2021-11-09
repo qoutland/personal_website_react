@@ -13,9 +13,9 @@
       "icon": "server",
       "alt_icon": "memory",
       "proficient_skills": [
-      "Docker", "Kubernetes", "Argo", "Jenkins", "CircleCI", "VMWare", "AWS", "GCP", "HAProxy"
+        "Docker", "Kubernetes", "Jenkins", "Terraform", "VMWare", "AWS", "GCP", "Webservers"
       ],
-      "statement": "I enjoy orchestrating deployments, automating processes, and increasing effeciency. I have experience in cloud migrations and feel comfortable managing 'always on' applications."
+      "statement": "I enjoy orchestrating deployments, automating processes, and increasing effeciency. I have experience managing a 100% cloud environment for a zero downtime web application."
     },
     {
       "title": "IT Professional",

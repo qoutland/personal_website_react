@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { MDBRow, MDBCol, MDBBtn, MDBAnimation } from 'mdbreact';
 import nve from './nvenergy.png';
 import taos from './taos.png';
+import leantaas from './leantaas.png';
 import axios from 'axios';
 import gitcache from './gitcache';
 
@@ -57,7 +58,7 @@ export default class Qualifications extends Component {
             <strong>Experience</strong>
           </h1>
           <MDBRow>
-            <MDBCol md="6" className="border">
+            <MDBCol md="4" className="border">
               <img src={nve} alt="nvenergy_logo" />
               <h5 className="font-weight-bold my-4">NVEnergy</h5>
               <p className="grey-text mb-md-0 mb-5">
@@ -75,20 +76,39 @@ export default class Qualifications extends Component {
                 View Website
               </MDBBtn>
             </MDBCol>
-            <MDBCol md="6" className="border">
+            <MDBCol md="4" className="border">
               <img src={taos} alt="taos_logo" />
               <h5 className="font-weight-bold my-4">Taos Mountain LLC</h5>
               <p className="grey-text mb-md-0 mb-5">
                Software and DevOps Engineer
               </p>
               <p className="grey-text mb-md-0 mb-5">
-                <strong>Aug 2019 - Present</strong>
+                <strong>Aug 2019 - Feb 2020</strong>
               </p>
 
               <MDBBtn
                 className="qualBtn"
                 color="primary"
                 href="https://taos.com"
+                target="_blank"
+              >
+                View Website
+              </MDBBtn>
+            </MDBCol>
+            <MDBCol md="4" className="border">
+              <img src={leantaas} alt="taos_logo" />
+              <h5 className="font-weight-bold my-4">LeanTaaS Inc.</h5>
+              <p className="grey-text mb-md-0 mb-5">
+               Senior Software Engineer - Infrastructure
+              </p>
+              <p className="grey-text mb-md-0 mb-5">
+                <strong>Mar 2020 - Present</strong>
+              </p>
+
+              <MDBBtn
+                className="qualBtn"
+                color="primary"
+                href="https://leantaas.com"
                 target="_blank"
               >
                 View Website
